@@ -15,7 +15,10 @@ fetch('./json/problem1.json')
             text: 'Total runs scored by team'
         },
         xAxis:{
-            type: 'category'
+            type: 'category',
+            title: {
+                text: "Teams"
+              }
         },
         yAxis: {
             min: 0,
@@ -53,7 +56,10 @@ fetch('./json/problem2.json')
             text: 'Top 5 batsman of RCB'
         },
         xAxis:{
-            type: 'category'
+            type: 'category',
+            title: {
+                text: "Batsmen"
+              }
         },
         yAxis: {
             min: 0,
@@ -92,13 +98,16 @@ fetch('./json/problem3.json')
             text: 'Foreign umpire analysis'
         },
         xAxis:{
-            type: 'category'
+            type: 'category',
+            title: {
+                text: "States"
+              }
 
         },
         yAxis: {
             min: 0,
             title: {
-              text: "umpire count"
+              text: "Umpire count"
             }
           },  
         series: [{
@@ -138,7 +147,10 @@ fetch('./json/problem4.json')
         },
         xAxis: {
             categories:season,
-            crosshair: true
+            crosshair: true,
+            title: {
+                text: "Years"
+              }
         },
         yAxis: {
           min: 0,
