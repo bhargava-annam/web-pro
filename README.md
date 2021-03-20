@@ -27,4 +27,4 @@ IPL data project. In this case the plotting happens on the browser with JS.
 # Hosting
 
 * This project is hosted on herokuapp. Below is the link to access my data-web project.
-  
+*  https://bhargava-webpro.herokuapp.com/
